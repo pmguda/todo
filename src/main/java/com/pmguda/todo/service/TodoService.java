@@ -1,7 +1,7 @@
 package com.pmguda.todo.service;
 
 import com.pmguda.todo.model.TodoEntity;
-import com.pmguda.todo.persitence.TodoRepository;
+import com.pmguda.todo.persistence.TodoRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

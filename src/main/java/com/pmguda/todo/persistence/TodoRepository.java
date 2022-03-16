@@ -1,8 +1,7 @@
-package com.pmguda.todo.persitence;
+package com.pmguda.todo.persistence;
 
 import com.pmguda.todo.model.TodoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
