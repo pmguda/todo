@@ -1,6 +1,6 @@
-package com.example.demo.security;
+package com.pmguda.todo.security;
 
-import com.example.demo.model.UserEntity;
+import com.pmguda.todo.model.UserEntity;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
