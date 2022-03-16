@@ -49,6 +49,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 			}
 		} catch (Exception ex) {
 			logger.error("Could not set user authentication in security context", ex);
+			// 예외 발생시 response를 403 Forbidden으로 설정.
+			response.setStatus(HttpServletResponse.SC_FORBIDDEN);
 		}
 
 		filterChain.doFilter(request, response);
