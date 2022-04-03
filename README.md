@@ -1,6 +1,6 @@
 # Spring Boot를 활용한 TODO
 
-## **스프링 부트 스타터 사이트로 이동해서 스프링 프로젝트 생성**
+##IntelliJ 에서 Spring Initializr로 프로젝트 생성
 - https://start.spring.io
 
 ## Project
@@ -27,3 +27,7 @@ dependencies {
     testImplementation 'org.springframework.batch:spring-batch-test'
 }
 ```
+
+> 원본자료
+* React.js, 스프링 부트, AWS로 배우는 웹 개발 101
+* https://github.com/fsoftwareengineer/todo-application
